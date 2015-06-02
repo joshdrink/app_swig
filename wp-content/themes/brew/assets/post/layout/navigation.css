@@ -288,3 +288,107 @@ nav {
     }
 
 }
+
+.form {
+
+    @media $respond-portrait {
+        text-align: justify;
+    }
+
+}
+
+.follow-block {
+    border-top: .5rem solid $white;
+    display: block;
+    padding: 1rem 0 3rem 0;
+    text-align: justify;
+
+    @media $respond-portrait {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+    }
+
+    &.break {
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    h3 span {
+        color: $white;
+    }
+
+    p {
+        text-align: left;
+
+        a {
+            color: $white;
+        }
+
+    }
+
+    label {
+        font-family: $font-roboto-cd;
+        font-weight: 700;
+    }
+
+    input[type='text'],
+    input[type='email'] {
+        background: rgba(30, 30, 30, .5);
+        border: 1px solid black;
+        color: $white;
+        font-family: $font-roboto-cd;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .mc-field-group {
+        margin: 0 0 1rem 0;
+        position: relative;
+        text-align: left;
+
+        .indicates-required {
+            font-family: $font-roboto-cd;
+            font-size: .8rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+    }
+
+    .split {
+
+        @media $respond-portrait {
+            display: inline-block;
+            width: 48%;
+            vertical-align: top;
+        }
+
+        &.break {
+            border: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+    }
+
+    .button {
+        border: 1px solid $white;
+        font-family: $font-roboto-cd;
+        font-weight: 900;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        transition: border .3s ease, color .3s ease;
+
+        &:hover {
+            color: $white;
+            transition: border .3s ease, color .3s ease;
+        }
+
+    }
+
+}

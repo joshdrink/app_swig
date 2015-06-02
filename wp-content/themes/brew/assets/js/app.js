@@ -71,6 +71,21 @@
             e.preventDefault();
         });
 
+        // Think Block Equalization ============================================
+        if (window.matchMedia("(min-width:701px)").matches) {
+
+            $('.post-preview').each(function() {
+                var maxTitleHeight = 0;
+                if($(this).find('h2').outerHeight() > maxTitleHeight) {
+                    maxTitleHeight = $(this).find('h2').outerHeight();
+                }
+
+                $(this).find('h2').css('height', maxTitleHeight + 'px');
+
+            });
+
+        }
+
         // Splash Handler ======================================================
         $(document).on('ready', function() {
 
