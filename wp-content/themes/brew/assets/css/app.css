@@ -334,6 +334,11 @@ nav {height: 100vh;width: 11vw;}}
 @media screen and (min-width: 801px) {
 .menu-content.active {-webkit-transform: translate(11vw, 0);-ms-transform: translate(11vw, 0);transform: translate(11vw, 0);transition: opacity .7s ease .6s;}}
 
+@media screen and (min-width: 701px) {
+.learn {text-align: justify;}}
+
+.learn span {color: rgba(250, 250, 250, 1);line-height: 1;}
+
 .heading-menu {
     font-size: 5rem;
     line-height: 1
@@ -344,6 +349,19 @@ nav {height: 100vh;width: 11vw;}}
 
 @media screen and (min-width: 701px) {
 .archive {text-align: justify;}}
+
+.learn-block {
+    border-top: .5rem solid rgba(250, 250, 250, 1);
+    display: block;
+    padding: 1rem 0 3rem 0;
+    text-align: left
+
+}
+
+@media screen and (min-width: 701px) {
+.learn-block {display: inline-block;width: 48%;vertical-align: top;}}
+
+.learn-block.break {border: none;margin: 0;padding: 0;width: 100%;}
 
 .post-preview {
     border-top: .5rem solid rgba(250, 250, 250, 1);

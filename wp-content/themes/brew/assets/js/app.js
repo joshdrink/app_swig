@@ -50,14 +50,14 @@
             if($('.glass-01').hasClass('active')) {
                 if($(this).hasClass('active')) {
                     $(this).removeClass('active');
-                    // $('body').removeClass('active');
+                    $('body').removeClass('active');
                     $('.menu-content').removeClass('active');
                     $('.glass-01, .glass-02, .glass-03').removeClass('active');
                 }
                 else {
                     $('.menu dd a').removeClass('active');
                     $('.menu-content').removeClass('active');
-                    // $('body').addClass('active');
+                    $('body').addClass('active');
                     $('[data-link-target="'+$(this).attr('data-link-handler')+'"]').addClass('active');
                     $(this).addClass('active');
                 }
@@ -65,7 +65,7 @@
             else {
                 $(this).addClass('active');
                 $('[data-link-target="'+$(this).attr('data-link-handler')+'"]').addClass('active');
-                // $('body').addClass('active');
+                $('body').addClass('active');
                 $('.glass-01, .glass-02, .glass-03').addClass('active');
             }
             e.preventDefault();
@@ -170,7 +170,7 @@
             setTimeout(delayNine, 12400);
 
             var textHeight = $('.splash .seven').outerHeight();
-            $('.splash .eight img').css('height', textHeight/2 + 'px');
+            $('.splash .eight img').css('height', textHeight/2.2 + 'px');
 
         });
 

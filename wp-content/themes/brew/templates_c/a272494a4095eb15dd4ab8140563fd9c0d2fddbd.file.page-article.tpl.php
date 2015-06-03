@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-01 01:16:43
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-03 01:32:38
          compiled from "C:\Users\Josh\Projects\Personal\app_swig\wp-content\themes\brew\templates\page-article.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4701556baf027bc485-51611887%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a272494a4095eb15dd4ab8140563fd9c0d2fddbd' => 
     array (
       0 => 'C:\\Users\\Josh\\Projects\\Personal\\app_swig\\wp-content\\themes\\brew\\templates\\page-article.tpl',
-      1 => 1433121401,
+      1 => 1433295153,
       2 => 'file',
     ),
   ),
@@ -36,6 +36,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <section class='page'>
 
     <article>
+        <a href='/'>< Landing</a>
 		<h1><?php echo the_title();?>
 </h1>
         <h6>Published on <?php echo $_smarty_tpl->tpl_vars['display_date']->value;?>

@@ -9,6 +9,7 @@
 <section class='page'>
 
     <article>
+        <a href='/'>< Landing</a>
 		<h1>{the_title()}</h1>
         <h6>Published on {$display_date}</h6>
         {$content}

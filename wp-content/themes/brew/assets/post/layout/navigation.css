@@ -221,6 +221,19 @@ nav {
 
 }
 
+.learn {
+
+    @media $respond-portrait {
+        text-align: justify;
+    }
+
+    span {
+        color: $white;
+        line-height: 1;
+    }
+
+}
+
 .heading-menu {
     font-size: 5rem;
     line-height: 1;
@@ -236,6 +249,27 @@ nav {
 
     @media $respond-portrait {
         text-align: justify;
+    }
+
+}
+
+.learn-block {
+    border-top: .5rem solid $white;
+    display: block;
+    padding: 1rem 0 3rem 0;
+    text-align: left;
+
+    @media $respond-portrait {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+    }
+
+    &.break {
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 
 }

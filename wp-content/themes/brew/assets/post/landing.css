@@ -16,7 +16,7 @@
 
 /* Splash =================================================================== */
 .splash {
-    background-image: url(../../assets/img/wallpaper_splash.png);
+    background-image: url(../../assets/img/wallpaper.jpg);
     background-position: center;
     background-size: cover;
     height: 89vh;
@@ -81,7 +81,7 @@
         color: $white;
         font-family: $font-roboto-cd;
         font-size: 1rem;
-        font-weight: 900;
+        font-weight: 500;
         position: absolute;
         left: 1rem;
         bottom: 1rem;
