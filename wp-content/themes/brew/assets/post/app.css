@@ -47,6 +47,7 @@ body {
 
 /* Progress ================================================================= */
 .progress {
+	display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -54,6 +55,7 @@ body {
     z-index: 50;
 
     @media $respond-landscape {
+		display: block;
         height: 90vh;
         top: 5vh;
         right: 5rem;
