@@ -24,6 +24,48 @@ nav {
 
 }
 
+/* Close Button ============================================================= */
+.close {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translate(1000%, -50%);
+
+    @media $respond-landscape {
+        opacity: 0;
+        top: 2rem;
+        right: -86vw;
+        transform: translate(1000%, 0);
+        transition: opacity 0s ease, transform 0s ease, right 0s ease !important;
+        z-index: 10;
+    }
+
+    &:before {
+        color: $white;
+        content: 'X';
+        display: block;
+        font-family: $font-roboto-cd;
+        font-size: 1rem;
+
+        @media $respond-landscape {
+            content: 'CLOSE.';
+        }
+
+    }
+
+    &.active {
+        transform: translate(0, -50%);
+
+        @media $respond-landscape {
+            opacity: 1;
+            transform: translate(0, 0);
+            transition: opacity .3s ease .3s, transform 0s ease !important;
+        }
+
+    }
+
+}
+
 /* Common Pane Styles ======================================================= */
 [class*='glass'] {
     background: red;

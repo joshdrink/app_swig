@@ -51,6 +51,7 @@
                 if($(this).hasClass('active')) {
                     $(this).removeClass('active');
                     $('body').removeClass('active');
+                    $('nav .close').removeClass('active');
                     $('.menu-content').removeClass('active');
                     $('.glass-01, .glass-02, .glass-03').removeClass('active');
                 }
@@ -58,6 +59,7 @@
                     $('.menu dd a').removeClass('active');
                     $('.menu-content').removeClass('active');
                     $('body').addClass('active');
+                    $('nav .close').addClass('active');
                     $('[data-link-target="'+$(this).attr('data-link-handler')+'"]').addClass('active');
                     $(this).addClass('active');
                 }
@@ -66,9 +68,19 @@
                 $(this).addClass('active');
                 $('[data-link-target="'+$(this).attr('data-link-handler')+'"]').addClass('active');
                 $('body').addClass('active');
+                $('nav .close').addClass('active');
                 $('.glass-01, .glass-02, .glass-03').addClass('active');
             }
             e.preventDefault();
+        });
+
+        // Close Button ========================================================
+        $('nav .close').on('click touchend', function(e) {
+            $('.menu dd a').removeClass('active');
+            $('body').removeClass('active');
+            $('nav .close').removeClass('active');
+            $('.menu-content').removeClass('active');
+            $('.glass-01, .glass-02, .glass-03').removeClass('active');
         });
 
         // Think Block Equalization ============================================

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-03 03:00:34
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-03 23:05:21
          compiled from "C:\Users\Josh\Projects\Personal\app_swig\wp-content\themes\brew\templates\layout\navigation.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:19260556b2ba80ea178-99851927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8ec75d28762d0248ec090f7326537cb740880281' => 
     array (
       0 => 'C:\\Users\\Josh\\Projects\\Personal\\app_swig\\wp-content\\themes\\brew\\templates\\layout\\navigation.tpl',
-      1 => 1433300375,
+      1 => 1433372614,
       2 => 'file',
     ),
   ),
@@ -33,6 +33,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div class='glass-01'></div>
     <div class='glass-02'></div>
     <div class='glass-03'></div>
+
+    <a href='#' class='close'></a>
 
     <dl class='menu'>
         <dt></dt>

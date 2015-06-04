@@ -7,6 +7,8 @@
     <div class='glass-02'></div>
     <div class='glass-03'></div>
 
+    <a href='#' class='close'></a>
+
     <dl class='menu'>
         <dt></dt>
         <dd><a href='#' id='learn' data-link-handler='learn'>Learn<span>.</span></a></dd>
