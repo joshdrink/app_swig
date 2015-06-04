@@ -348,7 +348,7 @@ nav {height: 100vh;width: 11vw;}}
 
 }
 @media screen and (min-width: 801px) {
-.menu-content {height: auto;-webkit-transform: translate(-89vw, 0);-ms-transform: translate(-89vw, 0);transform: translate(-89vw, 0);width: 89vw;}}
+.menu-content {height: 100vh;-webkit-transform: translate(-89vw, 0);-ms-transform: translate(-89vw, 0);transform: translate(-89vw, 0);width: 89vw;}}
 .menu-content.active {opacity: 1;-webkit-transform: translate(0, -89vh);-ms-transform: translate(0, -89vh);transform: translate(0, -89vh);transition: opacity .5s ease .5s}
 @media screen and (min-width: 801px) {
 .menu-content.active {-webkit-transform: translate(11vw, 0);-ms-transform: translate(11vw, 0);transform: translate(11vw, 0);transition: opacity .7s ease .6s;}}
