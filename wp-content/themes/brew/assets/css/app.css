@@ -21,6 +21,8 @@ html, body {font-size: 5vw;}
 	line-height: 1.5;
 }
 
+html.touch a:hover {color: initial !important;}
+
 /* Imports ================================================================== */
 
 /*Palette*/
