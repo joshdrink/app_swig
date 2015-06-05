@@ -97,7 +97,7 @@ em,
 span,
 blockquote,
 article {
-    color: rgba(40, 40, 40, 1);
+    color: rgba(0, 0, 0, .95);
     font-family: 'Droid Serif', serif;
 }
 
@@ -315,7 +315,7 @@ dl dd {
 
     color: rgba(255, 130, 0, 1);
 }
-.splash >a {
+.splash >a:not(.learn-prompt) {
 
     color: rgba(250, 250, 250, 1);
 
@@ -327,31 +327,29 @@ dl dd {
 
     position: absolute;
 
-    left: 1rem;
+    left: 50%;
 
     bottom: 1rem;
+
+    -webkit-transform: translate(-50%, 0);
+
+        -ms-transform: translate(-50%, 0);
+
+            transform: translate(-50%, 0);
 
     z-index: 50
 }
 @media screen and (min-width: 801px) {
-    .splash >a {
-
-        left: 50%;
+    .splash >a:not(.learn-prompt) {
 
         bottom: 2rem;
-
-        -webkit-transform: translate(-50%, 0);
-
-            -ms-transform: translate(-50%, 0);
-
-                transform: translate(-50%, 0);
     }
 }
-.splash >a:hover {
+.splash >a:not(.learn-prompt):hover {
 
     color: rgba(255, 130, 0, 1);
 }
-.splash >span {
+.splash >.learn-prompt {
 
     color: rgba(250, 250, 250, 1);
 
@@ -372,12 +370,12 @@ dl dd {
     z-index: 50
 }
 @media screen and (min-width: 801px) {
-    .splash >span {
+    .splash >.learn-prompt {
 
         display: block;
     }
 }
-.splash >span.active {
+.splash >.learn-prompt.active {
 
     opacity: 1;
 

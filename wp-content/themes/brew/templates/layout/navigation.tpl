@@ -100,7 +100,7 @@
         <!-- Follow Blurb ================================================== -->
         <div class='follow-block'>
             <h3>Get in Touch<span>.</span></h3>
-            <p>Curious about something you read here? Think you might want to discuss something further? You can use the form provided to follow along with updates as they're released. For a personal touch, I'm always available through <a href='http://twitter.com/joshdrink' target='_blank'>Twitter</a> and vow to do my absolute best to get back to you. If you're more interested in my professional (read: boring) background, you can always give me a shout through <a href='https://ca.linkedin.com/in/joshdrink' target='_blank'>LinkedIn</a> to shake things up.</p>
+            <p>Curious about something you read here? Think you might want to discuss something further? If you're so inclined, check out my code on <a href='https://github.com/joshdrink' target='_blank'>Gitub</a>. For a personal touch, I'm always available through <a href='http://twitter.com/joshdrink' target='_blank'>Twitter</a> and vow to do my absolute best to get back to you. If you're more interested in my professional (read: boring) background, you can always give me a shout through <a href='https://ca.linkedin.com/in/joshdrink' target='_blank'>LinkedIn</a> to shake things up.</p>
         </div>
 
         <!-- Break ========================================================= -->

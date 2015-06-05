@@ -78,20 +78,19 @@
 
     }
 
-    >a {
+    >a:not(.learn-prompt) {
         color: $white;
         font-family: $font-roboto-cd;
         font-size: 1rem;
         font-weight: 500;
         position: absolute;
-        left: 1rem;
+        left: 50%;
         bottom: 1rem;
+        transform: translate(-50%, 0);
         z-index: 50;
 
         @media $respond-landscape {
-            left: 50%;
             bottom: 2rem;
-            transform: translate(-50%, 0);
         }
 
         &:hover {
@@ -100,7 +99,7 @@
 
     }
 
-    >span {
+    >.learn-prompt {
         color: $white;
         display: none;
         font-family: $font-roboto-cd;

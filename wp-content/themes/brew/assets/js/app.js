@@ -74,6 +74,15 @@
             e.preventDefault();
         });
 
+        // Learn Prompt ========================================================
+        $('.learn-prompt').on('click touchend', function(e) {
+            $('#learn').addClass('active');
+            $('[data-link-target="'+$(this).attr('data-link-handler')+'"]').addClass('active');
+            $('body').addClass('active');
+            $('nav .close').addClass('active');
+            $('.glass-01, .glass-02, .glass-03').addClass('active');
+        });
+
         // Close Button ========================================================
         $('nav .close').on('click touchend', function(e) {
             $('.menu dd a').removeClass('active');
@@ -162,7 +171,7 @@
             }
 
             function delayNine() {
-                $('.splash span').addClass('active');
+                $('.splash .learn-prompt').addClass('active');
             }
 
             setTimeout(delayOne, 3000);

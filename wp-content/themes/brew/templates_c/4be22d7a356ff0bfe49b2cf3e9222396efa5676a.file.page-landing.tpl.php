@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-01 01:00:48
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-05 00:53:39
          compiled from "C:\Users\Josh\Projects\Personal\app_swig\wp-content\themes\brew\templates\page-landing.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:24841556b28a7243618-33997010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4be22d7a356ff0bfe49b2cf3e9222396efa5676a' => 
     array (
       0 => 'C:\\Users\\Josh\\Projects\\Personal\\app_swig\\wp-content\\themes\\brew\\templates\\page-landing.tpl',
-      1 => 1433120370,
+      1 => 1433465587,
       2 => 'file',
     ),
   ),
@@ -30,7 +30,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <!-- Splash ================================================================ -->
 <section class='splash'>
 
-    <span>< Learn More About the Swig.</span>
+    <a href='#' class='learn-prompt' data-link-handler='learn'>< Learn More About the Swig.</a>
 
     <h1 class='active one'>Welcome<span>.</span></h1>
     <h1 class='two'>Stop<span>.</span></h1>

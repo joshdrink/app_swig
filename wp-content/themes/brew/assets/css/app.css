@@ -7,11 +7,11 @@
 ============================================================================= */
 
 /* Body Font Size =========================================================== */
-html, body {font-size: 5vw;}
+html, body {font-size: 4.5vw;}
 @media screen and (min-width:541px) {html, body {font-size: 3vw;}}
 @media screen and (min-width:641px) {html, body {font-size: 2.5vw;}}
 @media screen and (min-width:801px) {html, body {font-size: 2vw;}}
-@media screen and (min-width:1025px) {html, body {font-size: 1.5vw;}}
+@media screen and (min-width:1025px) {html, body {font-size: 1.4vw;}}
 @media screen and (min-width:1281px) {html, body {font-size: 1.3vw;}}
 
 * {
@@ -103,7 +103,7 @@ em,
 span,
 blockquote,
 article {
-    color: rgba(40, 40, 40, 1);
+    color: rgba(0, 0, 0, .95);
     font-family: 'Droid Serif', serif;
 }
 
@@ -387,7 +387,7 @@ nav {height: 100vh;width: 11vw;}}
 .post-preview {
     border-top: .5rem solid rgba(250, 250, 250, 1);
     display: block;
-    padding: 1rem 0 3rem 0;
+    padding: 1rem 0 2rem 0;
     text-align: left
 
 }
@@ -474,7 +474,7 @@ nav {height: 100vh;width: 11vw;}}
 }
 @media screen and (min-width: 801px) {
 .page {max-width: 89%;margin: 0;position: relative;left: 11vw;width: 89vw;}}
-.page article {display: block;margin: 0 auto;max-width: 35rem;position: relative;z-index: 10;}
+.page article {display: block;margin: 0 auto;max-width: 32rem;position: relative;z-index: 10;}
 
 .heading-page {
     color: rgba(245, 245, 245, 1);

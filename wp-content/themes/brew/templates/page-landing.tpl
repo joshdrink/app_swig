@@ -3,7 +3,7 @@
 <!-- Splash ================================================================ -->
 <section class='splash'>
 
-    <span>< Learn More About the Swig.</span>
+    <a href='#' class='learn-prompt' data-link-handler='learn'>< Learn More About the Swig.</a>
 
     <h1 class='active one'>Welcome<span>.</span></h1>
     <h1 class='two'>Stop<span>.</span></h1>
