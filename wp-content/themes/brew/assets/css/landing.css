@@ -327,15 +327,13 @@ dl dd {
 
     position: absolute;
 
-    left: 50%;
+    left: 0;
 
     bottom: 1rem;
 
-    -webkit-transform: translate(-50%, 0);
+    text-align: center;
 
-        -ms-transform: translate(-50%, 0);
-
-            transform: translate(-50%, 0);
+    width: 100%;
 
     z-index: 50
 }

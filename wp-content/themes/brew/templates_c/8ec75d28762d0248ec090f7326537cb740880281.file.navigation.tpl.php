@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-05 00:49:42
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-05 01:26:27
          compiled from "C:\Users\Josh\Projects\Personal\app_swig\wp-content\themes\brew\templates\layout\navigation.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:19260556b2ba80ea178-99851927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8ec75d28762d0248ec090f7326537cb740880281' => 
     array (
       0 => 'C:\\Users\\Josh\\Projects\\Personal\\app_swig\\wp-content\\themes\\brew\\templates\\layout\\navigation.tpl',
-      1 => 1433465290,
+      1 => 1433467586,
       2 => 'file',
     ),
   ),
@@ -49,12 +49,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <h1 class='heading-menu'>Learn<span>.</span></h1>
         <div class='learn-block'>
             <h3>Question<span>.</span></h3>
-            <p>When you're not afraid to question the world around you, learning is inevitable. I love that about life. Sometimes asking why is tougher — but you learn that those moments just aren't worth the risk.</p>
+            <p>When you're not afraid to question the world around you, learning is inevitable. I love that about life. Sometimes asking why is risky, unexpected, or even discouraged. I'm here to tell you to ask anyway.</p>
             <p>The swig is a simple moment when a day's work is over and you finally have the opportunity to sit with good company and grab a cold one. During the day you <strong>think</strong>, you <strong>ask</strong>, you <strong>design</strong>, you <strong>iterate</strong> and hopefully you have the incredible opportunity to <strong>solve</strong>. Being able to work through this process on a daily basis is an unbelievable opportunity that I cherish. That's why, at the end of the day, I stop and take a swig and remember how damn lucky I am to call myself a designer.</p>
         </div>
         <div class='learn-block'>
             <h3>Grow<span>.</span></h3>
-            <p>This blog is a way for me to grow as a designer. I want it to act as an outlet for my learning, experimentation and questions. As a fellow designer, I hope that at least one idea that you read here might inspire you to pursue design with a new perspective. It's with this in mind that I continue to write on topics that inspire me. One day I hope I'm given the opportunity to learn and solve for an audience that will fundamentally change the way they interact with their every day surroundings.</p>
+            <p>My name is <strong>Josh</strong> and this blog is a way for me to grow as a designer. I want it to act as an outlet for my learning, experimentation and questions. As a student, peer, or mentor, I hope that at least one idea that you read here might inspire you to pursue design with a new perspective. It's with this in mind that I continue to write on topics that inspire me. One day I hope I'm given the opportunity to learn about and solve problems that will fundamentally change the way human beings interact with their everyday surroundings.</p>
             <h6>I firmly believe that design can change the world<span>.</span></h6>
         </div>
         <div class='learn-block break'></div>
