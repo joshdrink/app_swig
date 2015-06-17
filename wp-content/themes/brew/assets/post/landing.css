@@ -16,7 +16,8 @@
 
 /* Splash =================================================================== */
 .splash {
-    background-image: url(../../assets/img/wallpaper.jpg);
+    /*background-image: url(../../assets/img/wallpaper.jpg);*/
+    background-color: $black;
     background-position: center;
     background-size: cover;
     height: 89vh;
@@ -37,7 +38,7 @@
         content: ' ';
         display: block;
         height: 100%;
-        opacity: .2;
+        opacity: 0;
         width: 100%;
     }
 
@@ -107,7 +108,7 @@
         font-size: .7rem;
         opacity: 0;
         position: absolute;
-        top: 2.3rem;
+        top: 2.1rem;
         left: 1rem;
         z-index: 50;
 
