@@ -38,8 +38,8 @@
         <hr>
         <dl>
             <dt></dt>
-            <dd><a href="https://twitter.com/intent/tweet?text={$post->post_title}&amp;via=joshdrink&amp;url={$post->url|urlencode}"  data-counturl='{$post->url}' target='_blank'><i class='fa fa-twitter'></i>#TweetItUp</a></dd>
-            <dd><a href='https://www.linkedin.com/shareArticle?mini=true&amp;title={$post->post_title}&amp;url={$post->url|urlencode}' target='_blank'><i class='fa fa-linkedin'></i>Spread the Word</a></dd>
+            <dd><a href="https://twitter.com/intent/tweet?text={$post->post_title|urlencode}&amp;via=joshdrink&amp;url={$post->url|urlencode}"  data-counturl='{$post->url}' target='_blank'><i class='fa fa-twitter'></i>#TweetItUp</a></dd>
+            <dd><a href='https://www.linkedin.com/shareArticle?mini=true&amp;title={$post->post_title|urlencode}&amp;url={$post->url|urlencode}' target='_blank'><i class='fa fa-linkedin'></i>Spread the Word</a></dd>
             <dd><a href='http://www.facebook.com/sharer.php?u={$url|urlencode}' target='_blank'><i class='fa fa-facebook'></i>Earn Some Likes</a></dd>
         </dl>
         <h3>Think Out Loud.</h3>
