@@ -9,7 +9,7 @@
 <section class='page'>
 
     <article>
-        <a href='/'>< Landing</a>
+        <a href='/'>< Home</a>
 		<h1>{$title}</h1>
         <h6>Published on {$date}</h6>
         {$content}
