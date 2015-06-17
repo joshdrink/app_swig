@@ -10,6 +10,8 @@
 
 	$smarty = wp_smarty();
 
+	$smarty->assign('date', get_the_date('l, F j, Y'));
+
     $posts = array();
     $posts_query = new WP_Query(array(
         'posts_per_page'    => -1,
@@ -20,14 +22,11 @@
         $posts_query->the_post();
         $posts_query->post->url = get_permalink();
         $posts_query->post->post_excerpt = get_the_excerpt();
-        $posts_query->post->display_date = date('l, F j, Y');
+        $posts_query->post->display_date = get_the_date('l, F j, Y');
         $posts[] = $posts_query->post;
     }
 
     $smarty->assign('blog_posts', $posts);
-
-	$smarty->assign('url', get_permalink());
-	$smarty->assign('display_date', date('l, F j, Y'));
 
 	get_header();
 
