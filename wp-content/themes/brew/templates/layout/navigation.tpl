@@ -21,8 +21,8 @@
         <h1 class='heading-menu'>Learn<span>.</span></h1>
         <div class='learn-block'>
             <h3>Question<span>.</span></h3>
-            <p>When you're not afraid to question the world around you, learning is inevitable. I love that about life. Sometimes asking why is risky, unexpected, or even discouraged. I'm here to tell you to ask anyway.</p>
-            <p>The swig is a simple moment when a day's work is over and you finally have the opportunity to sit with good company and grab a cold one. During the day you <strong>think</strong>, you <strong>ask</strong>, you <strong>design</strong>, you <strong>iterate</strong> and hopefully you have the incredible opportunity to <strong>solve</strong>. Being able to work through this process on a daily basis is an unbelievable opportunity that I cherish. That's why, at the end of the day, I stop and take a swig and remember how damn lucky I am to call myself a designer.</p>
+            <p>When you're not afraid to question the world around you, learning is inevitable. I love that about life. Sometimes asking why is risky, unexpected, or even discouraged. I want you to ask anyway.</p>
+            <p>The swig is a simple moment when you've made it through the day and you finally have the opportunity to relax with a cold beer. During the day you <strong>think</strong>, you <strong>ask</strong>, you <strong>build</strong>, you <strong>iterate</strong> and hopefully you have the incredible opportunity to <strong>solve</strong>. Being able to work through this process on a daily basis is an unbelievable opportunity that I cherish. That's why, at the end of the day, that swig reminds how damn lucky I am to call myself a designer.</p>
         </div>
         <div class='learn-block'>
             <h3>Grow<span>.</span></h3>

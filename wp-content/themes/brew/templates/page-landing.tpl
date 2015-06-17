@@ -9,10 +9,10 @@
     <h1 class='two'>Stop<span>.</span></h1>
     <h1 class='three'>Think<span>.</span></h1>
     <h1 class='four'>Ask<span>.</span></h1>
-    <h1 class='five'>Design<span>.</span></h1>
+    <h1 class='five'>Build<span>.</span></h1>
     <h1 class='six'>Iterate<span>.</span></h1>
     <h1 class='seven'>Solve<span>.</span></h1>
-    <h1 class='eight'><img src='{$stylesheet_directory}/assets/img/logo_swig.png'>Swig<span>.</span></h1>
+    <h1 class='eight'>Swig<span>.</span></h1>
 
     <a href='#article'>Read the most recent article below.</a>
 
